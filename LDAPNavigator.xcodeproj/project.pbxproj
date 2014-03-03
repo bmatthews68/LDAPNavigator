@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82AF91E418C45C9500367F5B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF91E318C45C9500367F5B /* Cocoa.framework */; };
+		82AF91EE18C45C9500367F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AF91EC18C45C9500367F5B /* InfoPlist.strings */; };
+		82AF91F018C45C9500367F5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AF91EF18C45C9500367F5B /* main.m */; };
+		82AF91F418C45C9500367F5B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82AF91F218C45C9500367F5B /* Credits.rtf */; };
+		82AF91F718C45C9500367F5B /* LNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AF91F618C45C9500367F5B /* LNAppDelegate.m */; };
+		82AF91FA18C45C9500367F5B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AF91F818C45C9500367F5B /* MainMenu.xib */; };
+		82AF91FC18C45C9500367F5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AF91FB18C45C9500367F5B /* Images.xcassets */; };
+		82AF920318C45C9500367F5B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF920218C45C9500367F5B /* XCTest.framework */; };
+		82AF920418C45C9500367F5B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF91E318C45C9500367F5B /* Cocoa.framework */; };
+		82AF920C18C45C9500367F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AF920A18C45C9500367F5B /* InfoPlist.strings */; };
+		82AF920E18C45C9500367F5B /* LDAPNavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AF920D18C45C9500367F5B /* LDAPNavigatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82AF920518C45C9500367F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AF91D818C45C9500367F5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AF91DF18C45C9500367F5B;
+			remoteInfo = LDAPNavigator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82AF91E018C45C9500367F5B /* LDAPNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDAPNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AF91E318C45C9500367F5B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82AF91E618C45C9500367F5B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82AF91E718C45C9500367F5B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82AF91E818C45C9500367F5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82AF91EB18C45C9500367F5B /* LDAPNavigator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LDAPNavigator-Info.plist"; sourceTree = "<group>"; };
+		82AF91ED18C45C9500367F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82AF91EF18C45C9500367F5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82AF91F118C45C9500367F5B /* LDAPNavigator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LDAPNavigator-Prefix.pch"; sourceTree = "<group>"; };
+		82AF91F318C45C9500367F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		82AF91F518C45C9500367F5B /* LNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAppDelegate.h; sourceTree = "<group>"; };
+		82AF91F618C45C9500367F5B /* LNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAppDelegate.m; sourceTree = "<group>"; };
+		82AF91F918C45C9500367F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82AF91FB18C45C9500367F5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82AF920118C45C9500367F5B /* LDAPNavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDAPNavigatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AF920218C45C9500367F5B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82AF920918C45C9500367F5B /* LDAPNavigatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LDAPNavigatorTests-Info.plist"; sourceTree = "<group>"; };
+		82AF920B18C45C9500367F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82AF920D18C45C9500367F5B /* LDAPNavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDAPNavigatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AF91DD18C45C9500367F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF91E418C45C9500367F5B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AF91FE18C45C9500367F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF920418C45C9500367F5B /* Cocoa.framework in Frameworks */,
+				82AF920318C45C9500367F5B /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AF91D718C45C9500367F5B = {
+			isa = PBXGroup;
+			children = (
+				82AF91E918C45C9500367F5B /* LDAPNavigator */,
+				82AF920718C45C9500367F5B /* LDAPNavigatorTests */,
+				82AF91E218C45C9500367F5B /* Frameworks */,
+				82AF91E118C45C9500367F5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82AF91E118C45C9500367F5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AF91E018C45C9500367F5B /* LDAPNavigator.app */,
+				82AF920118C45C9500367F5B /* LDAPNavigatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AF91E218C45C9500367F5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82AF91E318C45C9500367F5B /* Cocoa.framework */,
+				82AF920218C45C9500367F5B /* XCTest.framework */,
+				82AF91E518C45C9500367F5B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82AF91E518C45C9500367F5B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82AF91E618C45C9500367F5B /* AppKit.framework */,
+				82AF91E718C45C9500367F5B /* CoreData.framework */,
+				82AF91E818C45C9500367F5B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82AF91E918C45C9500367F5B /* LDAPNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				82AF91F518C45C9500367F5B /* LNAppDelegate.h */,
+				82AF91F618C45C9500367F5B /* LNAppDelegate.m */,
+				82AF91F818C45C9500367F5B /* MainMenu.xib */,
+				82AF91FB18C45C9500367F5B /* Images.xcassets */,
+				82AF91EA18C45C9500367F5B /* Supporting Files */,
+			);
+			path = LDAPNavigator;
+			sourceTree = "<group>";
+		};
+		82AF91EA18C45C9500367F5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82AF91EB18C45C9500367F5B /* LDAPNavigator-Info.plist */,
+				82AF91EC18C45C9500367F5B /* InfoPlist.strings */,
+				82AF91EF18C45C9500367F5B /* main.m */,
+				82AF91F118C45C9500367F5B /* LDAPNavigator-Prefix.pch */,
+				82AF91F218C45C9500367F5B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82AF920718C45C9500367F5B /* LDAPNavigatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				82AF920D18C45C9500367F5B /* LDAPNavigatorTests.m */,
+				82AF920818C45C9500367F5B /* Supporting Files */,
+			);
+			path = LDAPNavigatorTests;
+			sourceTree = "<group>";
+		};
+		82AF920818C45C9500367F5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82AF920918C45C9500367F5B /* LDAPNavigatorTests-Info.plist */,
+				82AF920A18C45C9500367F5B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82AF91DF18C45C9500367F5B /* LDAPNavigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AF921118C45C9500367F5B /* Build configuration list for PBXNativeTarget "LDAPNavigator" */;
+			buildPhases = (
+				82AF91DC18C45C9500367F5B /* Sources */,
+				82AF91DD18C45C9500367F5B /* Frameworks */,
+				82AF91DE18C45C9500367F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDAPNavigator;
+			productName = LDAPNavigator;
+			productReference = 82AF91E018C45C9500367F5B /* LDAPNavigator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82AF920018C45C9500367F5B /* LDAPNavigatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AF921418C45C9500367F5B /* Build configuration list for PBXNativeTarget "LDAPNavigatorTests" */;
+			buildPhases = (
+				82AF91FD18C45C9500367F5B /* Sources */,
+				82AF91FE18C45C9500367F5B /* Frameworks */,
+				82AF91FF18C45C9500367F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AF920618C45C9500367F5B /* PBXTargetDependency */,
+			);
+			name = LDAPNavigatorTests;
+			productName = LDAPNavigatorTests;
+			productReference = 82AF920118C45C9500367F5B /* LDAPNavigatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AF91D818C45C9500367F5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Brian Matthews";
+				TargetAttributes = {
+					82AF920018C45C9500367F5B = {
+						TestTargetID = 82AF91DF18C45C9500367F5B;
+					};
+				};
+			};
+			buildConfigurationList = 82AF91DB18C45C9500367F5B /* Build configuration list for PBXProject "LDAPNavigator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82AF91D718C45C9500367F5B;
+			productRefGroup = 82AF91E118C45C9500367F5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AF91DF18C45C9500367F5B /* LDAPNavigator */,
+				82AF920018C45C9500367F5B /* LDAPNavigatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AF91DE18C45C9500367F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF91EE18C45C9500367F5B /* InfoPlist.strings in Resources */,
+				82AF91FC18C45C9500367F5B /* Images.xcassets in Resources */,
+				82AF91F418C45C9500367F5B /* Credits.rtf in Resources */,
+				82AF91FA18C45C9500367F5B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AF91FF18C45C9500367F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF920C18C45C9500367F5B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AF91DC18C45C9500367F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF91F718C45C9500367F5B /* LNAppDelegate.m in Sources */,
+				82AF91F018C45C9500367F5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AF91FD18C45C9500367F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF920E18C45C9500367F5B /* LDAPNavigatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82AF920618C45C9500367F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AF91DF18C45C9500367F5B /* LDAPNavigator */;
+			targetProxy = 82AF920518C45C9500367F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82AF91EC18C45C9500367F5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF91ED18C45C9500367F5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82AF91F218C45C9500367F5B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF91F318C45C9500367F5B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		82AF91F818C45C9500367F5B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF91F918C45C9500367F5B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		82AF920A18C45C9500367F5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF920B18C45C9500367F5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AF920F18C45C9500367F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82AF921018C45C9500367F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82AF921218C45C9500367F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LDAPNavigator/LDAPNavigator-Prefix.pch";
+				INFOPLIST_FILE = "LDAPNavigator/LDAPNavigator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82AF921318C45C9500367F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LDAPNavigator/LDAPNavigator-Prefix.pch";
+				INFOPLIST_FILE = "LDAPNavigator/LDAPNavigator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82AF921518C45C9500367F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LDAPNavigator.app/Contents/MacOS/LDAPNavigator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LDAPNavigator/LDAPNavigator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LDAPNavigatorTests/LDAPNavigatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82AF921618C45C9500367F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LDAPNavigator.app/Contents/MacOS/LDAPNavigator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LDAPNavigator/LDAPNavigator-Prefix.pch";
+				INFOPLIST_FILE = "LDAPNavigatorTests/LDAPNavigatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AF91DB18C45C9500367F5B /* Build configuration list for PBXProject "LDAPNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AF920F18C45C9500367F5B /* Debug */,
+				82AF921018C45C9500367F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AF921118C45C9500367F5B /* Build configuration list for PBXNativeTarget "LDAPNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AF921218C45C9500367F5B /* Debug */,
+				82AF921318C45C9500367F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82AF921418C45C9500367F5B /* Build configuration list for PBXNativeTarget "LDAPNavigatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AF921518C45C9500367F5B /* Debug */,
+				82AF921618C45C9500367F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AF91D818C45C9500367F5B /* Project object */;
+}
